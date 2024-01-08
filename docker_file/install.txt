@@ -1,1 +1,21 @@
+
 Распаковка docker
+
+выкладываем сюда
+/usr/bin/
+
+вот так должно быть
+/usr/bin/docker
+
+права накидываем
+sudo chmod +x /usr/bin/docker
+
+проверка 
+sudo usermod -aG docker $USER
+
+ребутаем
+sudo systemctl restart docker
+
+проверяем 
+docker --version
+
